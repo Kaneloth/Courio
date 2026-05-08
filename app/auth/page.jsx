@@ -14,7 +14,7 @@ export default function Auth(){
     <h2 className="font-bold mb-4">Courio</h2>
     <input className="w-full border p-2 mb-2" onChange={e=>setEmail(e.target.value)} placeholder="Email"/>
     <input className="w-full border p-2 mb-2" type="password" onChange={e=>setPassword(e.target.value)} placeholder="Password"/>
-    <button onClick={login} className="w-full bg-blue-600 text-white p-2 rounded">Login</button>
+    <button onClick={login} className="bg-blue-600 text-white px-4 py-2 rounded-2xl shadow-md hover:shadow-xl active:scale-95 transition">Login</button>
    </div>
   </div>
  )
