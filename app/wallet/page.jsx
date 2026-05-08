@@ -4,8 +4,8 @@ export default function Wallet(){
   <div className="p-4">
    <WalletCard />
    <div className="flex gap-2 mt-3">
-    <button className="bg-blue-600 text-white px-3 py-2 rounded">Add</button>
-    <button className="border px-3 py-2 rounded">Withdraw</button>
+    <button className="bg-blue-600 text-white px-4 py-2 rounded-2xl shadow-md hover:shadow-xl active:scale-95 transition">Add</button>
+    <button className="bg-blue-600 text-white px-4 py-2 rounded-2xl shadow-md hover:shadow-xl active:scale-95 transition">Withdraw</button>
    </div>
   </div>
  )
