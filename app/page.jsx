@@ -17,8 +17,8 @@ export default function Home(){
    </div>
    {isOwner && (
     <div className="flex gap-2">
-     <button className="bg-blue-600 text-white px-3 py-2 rounded">Add Vehicle</button>
-     <button className="border px-3 py-2 rounded">View Requests</button>
+    <button className="bg-blue-600 text-white px-4 py-2 rounded-2xl shadow-md hover:shadow-xl active:scale-95 transition">Add Vehicle</button>
+     <button className="bg-blue-600 text-white px-4 py-2 rounded-2xl shadow-md hover:shadow-xl active:scale-95 transition">View Requests</button>
     </div>
    )}
    {vehicles.map(v=> <VehicleCard key={v.id} vehicle={v} />)}
