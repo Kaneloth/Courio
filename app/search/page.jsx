@@ -1,5 +1,6 @@
-import { vehicles } from '../../lib/mockData';
-import { VehicleCard } from '../../components/VehicleCard';
+import { vehicles } from '../../lib/mockData'
+import { VehicleCard } from '../../components/VehicleCard'
+
 export default function Search(){
  return(
   <div className="p-4">
