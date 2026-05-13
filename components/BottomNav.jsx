@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+//upload
 export default function BottomNav(){
  const path = usePathname();
  const link = (p)=> path===p?"text-blue-600":"text-gray-500";
